@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C291F25313E33DBD0009AC86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C291F25213E33DBD0009AC86 /* main.cpp */; };
+		C291F25513E33DBD0009AC86 /* FuncApproxGA4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C291F25413E33DBD0009AC86 /* FuncApproxGA4.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C291F24C13E33DBD0009AC86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C291F25513E33DBD0009AC86 /* FuncApproxGA4.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C291F24E13E33DBD0009AC86 /* FuncApproxGA4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FuncApproxGA4; sourceTree = BUILT_PRODUCTS_DIR; };
+		C291F25213E33DBD0009AC86 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C291F25413E33DBD0009AC86 /* FuncApproxGA4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FuncApproxGA4.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C291F24B13E33DBD0009AC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C291F24313E33DBD0009AC86 = {
+			isa = PBXGroup;
+			children = (
+				C291F25113E33DBD0009AC86 /* FuncApproxGA4 */,
+				C291F24F13E33DBD0009AC86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C291F24F13E33DBD0009AC86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C291F24E13E33DBD0009AC86 /* FuncApproxGA4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C291F25113E33DBD0009AC86 /* FuncApproxGA4 */ = {
+			isa = PBXGroup;
+			children = (
+				C291F25213E33DBD0009AC86 /* main.cpp */,
+				C291F25413E33DBD0009AC86 /* FuncApproxGA4.1 */,
+			);
+			path = FuncApproxGA4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C291F24D13E33DBD0009AC86 /* FuncApproxGA4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C291F25813E33DBD0009AC86 /* Build configuration list for PBXNativeTarget "FuncApproxGA4" */;
+			buildPhases = (
+				C291F24A13E33DBD0009AC86 /* Sources */,
+				C291F24B13E33DBD0009AC86 /* Frameworks */,
+				C291F24C13E33DBD0009AC86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuncApproxGA4;
+			productName = FuncApproxGA4;
+			productReference = C291F24E13E33DBD0009AC86 /* FuncApproxGA4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C291F24513E33DBD0009AC86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UCLA;
+			};
+			buildConfigurationList = C291F24813E33DBD0009AC86 /* Build configuration list for PBXProject "FuncApproxGA4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C291F24313E33DBD0009AC86;
+			productRefGroup = C291F24F13E33DBD0009AC86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C291F24D13E33DBD0009AC86 /* FuncApproxGA4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C291F24A13E33DBD0009AC86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C291F25313E33DBD0009AC86 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C291F25613E33DBD0009AC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C291F25713E33DBD0009AC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C291F25913E33DBD0009AC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C291F25A13E33DBD0009AC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C291F24813E33DBD0009AC86 /* Build configuration list for PBXProject "FuncApproxGA4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C291F25613E33DBD0009AC86 /* Debug */,
+				C291F25713E33DBD0009AC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C291F25813E33DBD0009AC86 /* Build configuration list for PBXNativeTarget "FuncApproxGA4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C291F25913E33DBD0009AC86 /* Debug */,
+				C291F25A13E33DBD0009AC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C291F24513E33DBD0009AC86 /* Project object */;
+}
